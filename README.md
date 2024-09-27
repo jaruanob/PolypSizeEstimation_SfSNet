@@ -11,6 +11,13 @@ Josué Ruano(a), Diego Bravo(a), Diana Giraldo(a,b), Martín Gómez(c), Fabio A.
 
 <img src="pipeline_isbi.png?raw=True" width="800px" style="margin:0px 0px"/>
 
+# Previous work
+This method uses a depth estimation model, Shape-from-Shading Network (SfSNet), a journal article published as:
+
+Ruano, J., Gómez, M., Romero, E., & Manzanera, A. (2024). Leveraging a realistic synthetic database to learn Shape-from-Shading for estimating the colon depth in colonoscopy images. Computerized Medical Imaging and Graphics, [DOI](https://doi.org/10.1016/j.compmedimag.2024.102390)
+
+Repository: [SfSNet](https://github.com/Cimalab-unal/ColonDepthEstimation) 
+
 # Results
 
 Name of images, ground truth size, and estimations are in a CSV for each collection:
@@ -23,3 +30,5 @@ Name of images, ground truth size, and estimations are in a CSV for each collect
 At the link below you can request access to the database.
 
 https://forms.gle/USQkvguACcNTeGH26
+
+When you have access to the database, you will find a zip file with name "SyntheticDatabase_testingset_PolypSize.zip". This file contains the synthetic videos used for testing this method. Each folder provides depth maps (z), RGB images (img), and binary mask with segmented polyps (mask).

@@ -11,6 +11,13 @@ Josué Ruano(a), Diego Bravo(a), Diana Giraldo(a,b), Martín Gómez(c), Fabio A.
 
 <img src="pipeline_isbi.png?raw=True" width="800px" style="margin:0px 0px"/>
 
+# Results
+
+Name of images, ground truth size, and estimations are in a CSV for each collection:
+
+  1. Synthetic: Size_estimation_Synthetic.csv
+  2. Real: size_estimationSUNDb_1img.csv
+
 # Synthetic colonoscopy database
 
 At the link below you can request access to the database.

@@ -12,7 +12,7 @@ Josué Ruano(a), Diego Bravo(a), Diana Giraldo(a,b), Martín Gómez(c), Fabio A.
 <img src="pipeline_isbi.png?raw=True" width="800px" style="margin:0px 0px"/>
 
 # Previous work
-This method uses a depth estimation model, Shape-from-Shading Network (SfSNet), a journal article published as:
+This method uses a depth estimation model exaustively validated, Shape-from-Shading Network (SfSNet), and published as:
 
 Ruano, J., Gómez, M., Romero, E., & Manzanera, A. (2024). Leveraging a realistic synthetic database to learn Shape-from-Shading for estimating the colon depth in colonoscopy images. Computerized Medical Imaging and Graphics, [DOI](https://doi.org/10.1016/j.compmedimag.2024.102390)
 
